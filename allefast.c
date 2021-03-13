@@ -1,3 +1,4 @@
+#include "allegrex.h"
 static int arrayidx[] = {
   1,
   52,

@@ -5,12 +5,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <expat.h>
+#include "libexpat/expat/lib/expat.h"
 
 #include "nids.h"
 #include "hash.h"
 #include "alloc.h"
 #include "utils.h"
+
 
 struct nidstable {
   hashpool pool;

@@ -38,6 +38,23 @@
 
 #define INSN_ALIAS           0x80000000
 
+#define COMMAND_INDEX   1
+#define COMMAND_BSEARCH 2
+#define COMMAND_TEST    3
+#define COMMAND_END     4
+
+struct disasm_command {
+	int type;
+	unsigned int param1;
+	unsigned int param2;
+	unsigned int param3;
+};
+
+struct bsearch_index {
+	int index;
+	unsigned int opcode;
+};
+
 enum allegrex_insn {
   I_INVALID,
   I_ADD,
