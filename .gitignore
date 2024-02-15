@@ -12,3 +12,5 @@ nids.xml
 500
 Debug/
 Release/
+*.obj
+*.user
